@@ -103,7 +103,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
       .module('app')
       .controller('SomeController', SomeController);
 
-  function SomeController() { }
+  class SomeController() { }
   ```
 
   ```javascript
@@ -114,7 +114,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
       .module('app')
       .factory('someFactory', someFactory);
 
-  function someFactory() { }
+  class someFactory() { }
   ```
 
 **[Back to top](#table-of-contents)**
